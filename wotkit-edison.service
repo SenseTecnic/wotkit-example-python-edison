@@ -1,0 +1,13 @@
+[Unit]
+Description=wotkit-edison
+After=network.target
+
+[Service]
+ExecStart=/home/root/wotkit-example-python-edison/startwotkitedison.sh
+Restart=always
+RestartSec=10s
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
+
