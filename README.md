@@ -7,10 +7,17 @@ Dependencies
 * Python >2.7
 * Wiringx86 (https://github.com/emutex/wiring-x86)
 
-Setting up Script
-================
 
-Edit the wotkit_demo.py file and modify the following lines:
+Getting Started
+===============
+
+You will need to create a WoTKit account at https://wotkit.sensetecnic.com
+
+You can generate a key and password at: http://wotkit.sensetecnic.com/wotkit/keys.
+
+You can create a sensor to receive the data at: http://wotkit.sensetecnic.com/wotkit/sensors
+
+Edit the wotkit_demo.py file and modify the following lines to match your credentials and sensor name:
 
 ```
 SENSOR_NAME = 'YOURSENSORNAME'
@@ -18,7 +25,6 @@ USERNAME = 'YOURUSERNAME'
 PASSWORD = 'YOURPASSWORD'
 ```
 
-You can generate a key and password at: http://wotkit.sensetecnic.com/wotkit/keys. You can create a sensor to receive the data at: http://wotkit.sensetecnic.com/wotkit/sensors
 
 Running Script
 ================
