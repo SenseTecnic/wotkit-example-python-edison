@@ -25,6 +25,16 @@ USERNAME = 'YOURUSERNAME'
 PASSWORD = 'YOURPASSWORD'
 ```
 
+Wiring Up
+=========
+
+To wire a sensor (e.g. a temp sensor):
+
+![alt](https://raw.githubusercontent.com/SenseTecnic/wotkit-example-python-edison/master/diagram-sensor_bb.png)
+
+To wire a 5V relay:
+
+![alt](https://raw.githubusercontent.com/SenseTecnic/wotkit-example-python-edison/master/diagram-relay_bb.png)
 
 Running Script
 ================
