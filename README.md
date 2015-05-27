@@ -25,8 +25,8 @@ USERNAME = 'YOURUSERNAME'
 PASSWORD = 'YOURPASSWORD'
 ```
 
-Wiring Up
-=========
+Wiring Things Up
+================
 
 To wire a sensor (e.g. a temp sensor):
 
